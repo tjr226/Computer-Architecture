@@ -59,11 +59,33 @@ but you'll have to implement those three above instructions first!
 
 ## Step 0: IMPORTANT: inventory what is here!
 
-* Make a list of files here.
-* Write a short 3-10-word description of what each file does.
-* Note what has been implemented, and what hasn't.
-* Read this whole file.
-* Skim the spec.
+* [ ] Make a list of files here.
+* [ ] Write a short 3-10-word description of what each file does.
+* [ ] Note what has been implemented, and what hasn't.
+* [ ] Read this whole file.
+* [ ] Skim the spec.
+
+FILES
+
+asm.js - DEPRECATED
+asm.py - READ
+call.asm - READ - examples of code
+interrupts.asm - READ - interrupting
+keybaord.asm - READ - echoes the keyboard inputs
+mult.asm - READ - only multiplies hard coded two numbers, 8, 9
+print8.asm - READ - only prints 8, hardcoded
+printstr.asm - READ - does something, I'm not sure
+asm/readme.md - READ - asm/* converts LS-8 assembler source code and converts it into .ls8 'binary' files
+sctest.asm - READ - sprint challenge test code
+stack.asm - READ - doesn't make sense yet
+stackoverflow.asm - READ - doesn't make sense yet
+
+ls8/examples/* - READ - these all match to the asm/* files
+ls8/cpu.py - READ 
+ls8/ls8.py - READ
+
+FAQ.md
+LS8-cheatsheet.md
 
 ## Step 1: Add the constructor to `cpu.py`
 
